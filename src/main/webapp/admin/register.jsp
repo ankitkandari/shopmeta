@@ -189,6 +189,17 @@
     </div>
 </div>
 <!-- success Popup html End -->
+<form action="/Shopmeta/register" method="post"> 
+     <p>ID:</p>  
+     <!-- Create an element with mandatory name attribute, 
+     so that data can be transfer to the servlet using getParameter() -->
+     <input type="text" name="id"/> 
+     <br/> 
+     <p>String:</p>  
+     <input type="text" name="string"/> 
+     <br/><br/><br/> 
+     <input type="submit"/> 
+ </form>
 <!-- js -->
 <script src="assets/scripts/core.js"></script>
 <script src="assets/scripts/script.min.js"></script>
